@@ -1,0 +1,137 @@
+html, body {
+  margin:  0;
+  padding: 0;
+  min-height: 100%;
+
+}
+
+body {
+    background-image: url("hh-background.png");
+    background-size: cover;
+    margin: 0; 
+    padding: 0;
+    background-repeat:no-repeat;
+    font-family: 'League Spartan';
+}
+
+h1 {
+    padding-left: 10px;
+    font-size: 125px;
+    color: #3a4038;
+    padding-bottom:0px ;
+
+}
+
+h2 {
+    padding-left: 10px;
+    margin-top: -60px;
+    font-size: 100px;
+    color: #3a4038;
+
+}
+
+label {
+    padding: left 25px;
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+
+
+}
+
+input {
+    height: 32px;
+    vertical-align: center;
+    border-radius:15px;
+    border-color: white;
+    min-width: 45px;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding-left: 0px;
+    margin-left: 5vh;
+    width: 350px;
+    height: 40px;
+    font-weight: bold;
+    color: #547446;
+    background-color: black;
+    font-size: 30px;
+  
+}
+
+
+.results-area{ padding:20px; max-width:900px; margin:0 auto; }
+
+
+.list{
+  list-style:none; margin:16px 0 0; padding:0;
+  display:grid; gap:16px;
+}
+
+
+.item{
+  display:grid;
+  grid-template-columns: 140px 1fr;  
+  align-items:center;
+  background:#fff;
+  border-radius:999px;
+  padding:18px 22px;
+  box-shadow:0 8px 20px #00000012;
+  border:1px solid #00000010;
+}
+
+
+.dateblock{
+  display:flex; align-items:center; justify-content:center;
+  height:64px; border-radius:999px; background:#fff; 
+  border:1px solid #00000010;
+}
+.dateblock .datebig{
+  font-size:44px; font-weight:800; color:#3a4038; letter-spacing:1px;
+}
+
+
+.content .title{
+  margin:0; font-size:26px; font-weight:800; color:#222;
+}
+.content .meta{
+  margin-top:4px; font-size:13px; line-height:1.3; color:#5b6b5b;
+}
+
+
+.content .apply{
+  display:inline-block; margin-top:8px; padding:8px 12px;
+  border-radius:999px; border:1px solid #00000014;
+  text-decoration:none; font-weight:700; font-size:13px; color:#0b2a0b;
+  background:#eaf5ea;
+}
+
+
+@media (max-width:640px){
+  .item{ grid-template-columns: 110px 1fr; padding:14px 16px; }
+  .dateblock .datebig{ font-size:34px; }
+  .content .title{ font-size:20px; }
+}
+
+
+form {
+  display: flex;
+  justify-content: center;  
+  gap: 10px;                
+  margin-top: 40px;         
+
+}
+
+.search {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;     
+  gap: 12px;                
+  margin-top: 40px;
+}
+.search .row {
+  display: flex;          
+  gap: 10px;
+}
