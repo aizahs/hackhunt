@@ -13,3 +13,9 @@ HackHunt is a  web app created to help students find upcoming hackathons near th
 
 ---
 
+## Languages/Tools
+
+- Node.js
+- Cheerio.js
+- HTML, CSS , vanilla JS for frontend
+
